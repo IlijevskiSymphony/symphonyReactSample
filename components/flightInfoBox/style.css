@@ -1,0 +1,47 @@
+.flight-info-box {
+    border: 1px solid #ededed;
+    box-shadow: 2px 7px 20px #dad8d8;
+}
+
+.flight-info-box .operator-logo {
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position-x: calc(100% - 15px);
+}
+
+.flight-info-box .flight-name {
+    border-bottom: 1px solid #e2b870;
+    background: #e2b870;
+}
+
+.flight-info-box .flight-name h3 {
+    padding: 10px 15px 0 15px;
+}
+
+.flight-info-box .price-container {
+    border-top: 1px solid #333333;
+    background-color: #003645;
+    color: #fff;
+}
+
+.flight-info-box .price-container .price {display: inline-block;}
+
+.flight-info-box p {color: #737373;}
+
+.flight-info-box h3 {
+    margin-top: 0;
+    padding-top: 10px;
+    color: #003746;
+}
+
+.flight-info-box .price h3 {color: #fff;}
+
+.flight-info-box h4 {
+    color: #003746;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.flight-info-box .padding {
+    padding: 0 15px;
+}

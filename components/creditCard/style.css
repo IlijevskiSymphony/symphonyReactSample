@@ -1,0 +1,48 @@
+.credit-card {
+  background-color: #393939;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  height: 215px;
+  justify-content: space-around;
+  box-shadow: 2px 7px 20px #aeaeae;
+}
+.credit-card .credit-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.credit-card .credit-card-header .header {
+  color: #1385e5;
+  font-weight: 700;
+}
+.credit-card .credit-card-number-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.credit-card .credit-card-number-container .credit-card-number-header {
+  color: #808080;
+}
+.credit-card .credit-card-number-container .credit-card-number {
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+.credit-card .credit-card-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.credit-card .credit-card-details-container .credit-card-sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.credit-card .credit-card-details-container .credit-card-sub-container .credit-card-sub-header {
+  font-size: 13px;
+  color: #808080;
+}
+.credit-card .credit-card-details-container .credit-card-sub-container .credit-card-details {
+  font-size: 16px;
+}
